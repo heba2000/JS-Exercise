@@ -1,0 +1,46 @@
+*{
+padding: 0px;    
+margin: 0px;    
+}
+
+.item{
+    background-color: orange;
+    position: relative;
+}
+.item-caption{
+background-color:#fff;
+width: 80%;
+padding: 10px;
+position: absolute;
+bottom: 15px;   
+left: 10%;    
+}
+.popover-box 
+{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: rgba(0,0,0,0.6);
+    display:none 
+}
+.show{
+   display:flex
+}
+.popover-item{
+/*  background-image: url(../person1.jpg);*/
+    background-size: 100% 100%;
+    width: 50%;
+    height: 500px;
+    }
+
+.popover-box i{
+color: #fff;    
+}
+.fa-window-close{
+position: absolute;
+top: 20px;
+right: 20px;  
+    
+}
